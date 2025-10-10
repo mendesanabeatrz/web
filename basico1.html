@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página HTML</title>
+
+    <style>
+        img{
+            width: 300px;
+            border-radius: 50%;
+        }
+        p{
+            color: blue;
+        }
+        h1{
+            color: rgb(255, 0, 0)
+        }
+        ul{
+            background-color: lightgray;
+            padding: 30px;
+        }
+        table, td{
+            border: 1px solid #000000;
+            border-collapse: collapse;
+        }
+        th{
+            border: 1px solid #000000;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <!-- Comentário -->
+        <p><strong>Site para ver as tag HTML: </strong>https://www.w3.org/TR/2012/WD-html-markup-20121025/elements.html</p>
+
+        <h1>Título de nível 1</h1>
+        <h2>Título de nível 2</h2>
+        <h3>Título de nível 3</h3>
+        <h4>Título de nível 4</h4>
+        <h5>Título de nível 5</h5>
+        <h6>Título de nível 6</h6>   
+        <p>Isto é um paragrafo</p> <p>s</p>
+        <span>Isto é somente um texto</span><span> Linha</span>
+    <hr>
+        <p>Lorem, <em>ipsum</em> <strong>dolor</strong> sit amet consectetur adipisicing elit. Itaque quos maxime voluptas amet error delectus perferendis inventore saepe aspernatur, enim ullam fugit aperiam sit eius facere doloremque. Corrupti, perspiciatis nisi?</p>
+    <ul>
+        <li><strong>repositório git</strong></li>
+        <li>git init - cria um repo em um diretório</li>
+        <li>git add - adicionar modificações do workcopy ao stage</li>
+        <li>git commit -m "asdf" - cria um commit a partir do stage</li>
+        <li>git log - exibe os commits do nosso repositório local</li>
+        <li>git status - exibe o status do workcopy (WK)</li>
+        <li>git checkout -b novabranch hash - cria uma nova branch apontando para a branch ou hash informado </li>
+        <li>git reset --hard - restaura os arquivos trackeados ao estado do HEAD</li>
+        <li>git push remote branch</li>
+        <li>git config user.name "Nome"</li>    
+        <li>git config user.email "Nome@email.com"</li> 
+        <li>git clone url - faz o clone de um repositório remoto</li>
+    </ul>
+    <hr>
+        <h1>Título de nível 1</h1>
+        <h2>Título de nível 2</h2>
+        <h3>Título de nível 3</h3>
+        <h4>Título de nível 4</h4>
+        <h5>Título de nível 5</h5>
+        <h6>Título de nível 6</h6> 
+    <hr>
+        <p>Programação para internet</p> <p>s</p>
+
+        <span>Isto é somente um texto</span><span> Linha</span>
+        <p><i>Lorem</i> <em>ipsum</em> <strong>dolor</strong> sit amet consectetur adipisicing elit. Itaque quos maxime voluptas amet error delectus perferendis inventore saepe aspernatur, enim ullam fugit aperiam sit eius facere doloremque. Corrupti, perspiciatis nisi?</p>
+
+    <h1>Listas</h1>
+        <p>O html possui listas não ordenadas e listas ordenadas, as listas ordenadas não ordenadas são definidas como a tag &lt;ul&gt; enquanto usamos &lt;ol&gt; para listas ordenadas. </p>
+
+    <ul>
+        <li>Panqueca</li>
+        <li>Pera</li>
+        <li>Uva</li>
+        <li>Maçã</li>
+    </ul>
+
+    <ol start="5" type="A">
+        <li>Panqueca</li>
+        <li>Pera</li>
+        <li>Uva</li>
+        <li>Maçã</li>
+    </ol>
+    <dl>
+        <dt>Café</dt>
+        <dd>Bebida fundamental a vida!</dd>
+        <dt>Água</dt>
+        <dd>Bebida fundamental a vida!</dd>
+        <dt>Bacon</dt>
+        <dd>fundamental</dd>
+        <dt>Porco</dt>
+        <dd>Animal bonito</dd>
+    </dl>
+
+    <h1 style="color: #ff0000;">Tags de formatação de texto</h1>
+        <p>Lorem <strong> dolor</strong> ipsum <sub>10</sub> <sup>2</sup> = <sub>2</sub> <sup>10</sup> sit amet, consectetur adipisicing elit. <mark>texto marcado</mark> Recusandae dignissimos magnam laboriosam dicta labore fugiat, blanditiis, sequi officia aspernatur voluptatum non exercitationem, libero quaerat perferendis veniam doloribus nam odit vitae.</p>
+    <ol start="1" type="">
+        <li>&lt;strong&gt;</li>
+        <li>&lt;em&gt;</li>
+        <li>&lt;sub&gt;</li>
+        <li>&lt;sup&gt;</li>
+        <li>&lt;mark&gt;</li>
+    </ol>
+
+    <h1>Links e imagens</h1>
+    <a target="_blank" href="https://www.google.com/search?q=power rangers"> Google</a>
+
+    <a href="https://www.google.com">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eaque placeat fugiat recusandae ratione impedit perspiciatis explicabo totam veniam, maiores quis dolore cum sapiente reiciendis tempora atque provident sint soluta.
+    </p>
+    </a>
+    <br>
+    <img src="./imgs/Itajai.avif" alt="Itajai">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Dracena_a%C3%A9reo_Igreja_Matriz.jpg" alt="Dracena" >
+
+    <h1>Tabela no html</h1>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>20</td>
+            <td>Estudante</td>
+        </tr>
+        <tablerow>
+            <td>Maria</td>
+            <td>30</td>
+            <td>Desenvolvedora</td>
+        </tablerow>
+    </table>
+
+    <h1>Formulários</h1>
+
+    <form action="https://google.com/search">
+
+        <input type="text" value="" placeholder="entre com seu nome">
+        <label for="q">Query de busca</label>
+        <input id="q" name="q" type="date"  draggable="true" value="2002-02-23"> 
+        <input type="submit" value="Buscar">
+
+    </form>
+
+</body>
+</html>
